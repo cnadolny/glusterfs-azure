@@ -246,7 +246,7 @@ install_glusterfs_ubuntu() {
     then
         echo "adding gluster ppa"
         apt-get  -y install python-software-properties
-        apt-add-repository -y ppa:gluster/glusterfs-3.7
+        apt-add-repository -y ppa:gluster/glusterfs-3.8
         apt-get -y update
     fi
     
